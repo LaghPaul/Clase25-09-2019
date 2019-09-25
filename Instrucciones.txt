@@ -30,3 +30,16 @@ git init
 //enlazar con el repositorio remoto
 git remote add origin https://github.com/LaghPaul/Clase25-09-2019.git
 ///////////////////////////////////////////////////////
+mkdir web001
+
+//el txt creado inicialmente
+git add Instrucciones.txt
+git add .      o      git add *
+
+//git commit -m "mensaje version ###"
+git commit -m "act. 25-09"
+
+//sube todos los archivos
+git push -u origin master
+
+
