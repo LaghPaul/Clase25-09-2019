@@ -56,8 +56,10 @@ git checkout -b rama_1
 // borrar rama_1
 git checkout -d rama_1
 
-//escoger rama
-git push origin rama_1
+//agregar
+git add .
+git commit -m "act rama_1"
+git push -u origin rama_1
 
 // pasos
 git checkout -b rama_1
