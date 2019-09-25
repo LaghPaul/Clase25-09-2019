@@ -42,4 +42,31 @@ git commit -m "act. 25-09"
 //sube todos los archivos
 git push -u origin master
 
+git commit -m "todos"
 
+git push -u origin master
+
+///////////////////////////////////////////////////////
+git checkout -b rama_1
+git checkout -b rama_2
+git checkout rama_1
+git add .
+git commit -m "todos rama_1"
+git push origin rama_1
+git checkout rama_2
+git push origin rama_2
+
+---------------------------------------------------------------------------------
+
+//crear ramas
+git branch "rama_1"
+
+//caminar a rama
+git checkout rama_1
+
+//crea y se cambia
+git checkout -b rama_1
+
+
+//borrar rama
+git checkout -d rama_1
