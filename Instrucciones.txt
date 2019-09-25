@@ -56,7 +56,8 @@ git checkout -b rama_1
 // borrar rama_1
 git checkout -d rama_1
 
-
+//escoger rama
+git push origin rama_1
 
 // pasos
 git checkout -b rama_1
